@@ -4,7 +4,7 @@ import { IndexComponent } from './index/index.component'; // Add missing import
 import { EdicionComponent } from './edicion/edicion.component';
 import { MarketingComponent } from './marketing/marketing.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
-
+import { ContactoComponent } from './contacto/contacto.component';
 
 export const routes: Routes = [
   {path: '', component: IndexComponent},
@@ -13,4 +13,5 @@ export const routes: Routes = [
   {path: 'edicion', component: EdicionComponent },
   {path: 'marketing', component: MarketingComponent},
   {path: 'nosotros', component: NosotrosComponent},
+  {path: 'contacto', component: ContactoComponent},
 ];

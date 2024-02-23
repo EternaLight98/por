@@ -7,156 +7,214 @@
     <script src="https://kit.fontawesome.com/9bf1505faf.js"></script>
     <link rel="stylesheet" href="../fontawesome/css/all.min.css">
   </head>
-
-
-
-
-
-
     <body>
 
-      <div class="float">
-        <a href="" target="_blank" id="a3">
-          <i class="fa-brands fa-whatsapp" id="icon3"></i>
-        </a>
-      </div>
 
 
-<!--Redes sociales-->
-      <section class="sec1">
-              <nav class="nav2">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12 col-sm-2 col-mx-2">
-                      <h1>Code JD</h1>
-
-                <!--Redes sociales-->
-
-                          <!-- Facebook -->
-                            <a id="a2" target="_blank" href="https://facebook.com/profile.php?id=100071339031841" role="button"><i class="fa-brands fa-facebook" id="icon">  </i></a>&nbsp;
-
-                          <!-- Instagram -->
-                            <a id="a2" class="a" target="_blank" href="" role="button" ><i class="fa-brands fa-instagram" id="icon"></i></a>&nbsp;
-
-                          <!-- Whatsapp -->
-                            <a id="a2" class="a" target="_blank" href="https://wa.me/3156485860" role="button"><i class="fa-brands fa-whatsapp" id="icon">  </i></a>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-      </section>
-
-<!--logo-->
-<!--
-      <section class="sec5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-6 col-mx-3">
-                <div class="logo1">
-                  <video autoplay  loop>
-                    <source src="assets/Vlogo.mp4" type="video/mp4">
-                  </video>
-                </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    -->
-<!--buscador-->
-
-<!--
 <header>
-  <section class="sec4">
-    <div class="container1">
-      <div class="row">
-        <div class="col-md-12 col-sm-6 col-mx-3 ">
-          <nav class="nav4">
+        <div class="content">
+          <div class="menu container">
+              <img class="logo-gif" src="assets/Vlogo.gif" >
+              <input type="checkbox" id="menu">
+              <label for="menu" >
+                  <i class="fa-solid fa-bars" id="icon"></i>
+              </label>
 
-            <div class="logo1">
-              <video autoplay  loop>
-                <source src="assets/Vlogo.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="buscador">
-              <input type="text" name="" value="" placeholder="Buscar" class="buscar">
-              <button type="button" name="button" class="bot1"><i class="fa-solid fa-search"></i></button>
-            </div>
+              <nav class="navbar">
+                <ul class="menu-horizontal">
+                  <li><a id="a" routerLink="/nosotros">¿Quienes somos?</a></li>
 
-          </nav>
-        </div>
+                  <li>
+                    <a id="a" ><i class="fa-solid fa-ellipsis-vertical"></i>Servicios</a>
+                    <ul class="menu-vertical">
+
+                      <li><a id="a" routerLink="/desarrollo"><i class="fa-solid fa-code"></i>Desarrollo Web</a></li>
+
+                      <li><a id="a" routerLink="/edicion"><i class="fa-solid fa-video"></i>Edición de video</a></li>
+
+                      <li><a id="a" routerLink="/marketing"><i class="fa-solid fa-square-poll-vertical"></i>Marketing</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a id="a" routerLink="/contacto"><i class="fa-solid fa-address-book"></i>Contacto</a></li>
+                </ul>
+
+              </nav>
+          </div>
       </div>
-    </div>
-  </section>
 </header>
 
--->
+  <nav class="navbar2">
+      <!--Redes sociales-->
 
-      <section class="sec4">
-        <div class="container1">
-          <div class="row">
-            <div class="col-md-12 col-sm-6 col-mx-3">
-              <nav class="nav4">
-                <div class="logo1">
-                  <video autoplay  loop>
-                    <source src="assets/Vlogo.mp4" type="video/mp4">
-                  </video>
-                </div>
-                <div class="buscador">
-                  <input type="text" name="" value="" placeholder="Buscar" class="buscar">
-                  <button type="button" name="button" class="bot1"><i class="fa-solid fa-search"></i></button>
-                </div>
-              </nav>
-            </div>
-          </div>
+    <!-- Facebook -->
+    <div class="col-md-1 col-sm-1 col-mx-1">
+    <a id="a3"  target="_blank" href="https://facebook.com/profile.php?id=100071339031841" role="button"><i class="fa-brands fa-facebook" id="icon3">  </i></a>&nbsp;
+    </div>
+    <!-- Instagram -->
+    <div class="col-md-1 col-sm-1 col-mx-1">
+    <a id="a3"  target="_blank" href="" role="button" ><i class="fa-brands fa-instagram" id="icon3"></i></a>&nbsp;
+    </div>
+    <!-- Whatsapp -->
+    <div class="col-md-1 col-sm-2 col-mx-1">
+    <a id="a3"  target="_blank" href="https://wa.me/3156485860" role="button"><i class="fa-brands fa-whatsapp" id="icon3">  </i></a>
+    </div>
+  </nav>
+
+  <section class="sec1">
+
+
+          <h1 id="h1">Desarrollo Web</h1>
+          <p id="p">Desarrollamos páginas web a la medida de tus necesidades, con las últimas tecnologías y tendencias del mercado.</p>
+          <a id="a1" routerLink="/desarrollo">Ver más</a>
+
+        <div class="col-md-6 col-sm-12 col-mx-3">
+          <img src="assets/desarrollo.jpg" id="img">
         </div>
+
       </section>
+<section class="sec2">
+
+<div>
+  <h1 id="h1">Desarrollo Web</h1>
+  <p id="p">Desarrollamos páginas web a la medida de tus necesidades, con las últimas tecnologías y tendencias del mercado.</p>
+  <a id="a1" routerLink="/desarrollo">Ver más</a>
+
+<div class="col-md-6 col-sm-12 col-mx-3">
+  <img src="assets/desarrollo.jpg" id="img">
+</div>
+</div>
+
+</section>
 
 
 
+<section class="sec4">
 
- <!--navegador-->
-      <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-6 col-mx-3 ">
-              <nav class="nav">
+<div>
+  <h1 id="h1">Desarrollo Web</h1>
+  <p id="p">Desarrollamos páginas web a la medida de tus necesidades, con las últimas tecnologías y tendencias del mercado.</p>
+  <a id="a1" routerLink="/desarrollo">Ver más</a>
+
+<div class="col-md-6 col-sm-12 col-mx-3">
+  <img src="assets/desarrollo.jpg" id="img">
+</div>
+</div>
+
+</section>
 
 
-                    <a id="a" class="code" routerLink="/index"><h1>Code JD</h1></a>
-                    <ul>
-                    <li ><a id="a" routerLink="/desarrollo"><i class="fa-solid fa-code"></i>Desarrollo Web</a>
-                    <li> <a id="a" routerLink="/edicion"><i class="fa-solid fa-video"></i>Edición de video</a>
-                    <li><a id="a" routerLink="/marketing"><i class="fa-solid fa-square-poll-vertical"></i>Marketing</a>
-                    <li><a id="a" routerLink="/nosotros"><i class="fa-solid fa-question"></i>Quienes Somos</a>
-                  </ul>
 
-              </nav>
-            </div>
-          </div>
-        </div>
-      </header>
-
- <!--cuerpo-->
-      <section class="sec2">
-            <div class="portafolio">
-              <div class="row">
-                <div class="col-md-12 col-sm-6 col-mx-3">
-                  <h1>Bienvenido a mi portafolio</h1>
-                </div>
+<section class="sec5">
+        <div class="vertical">
+          <tr>
+            <td >
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="vertical">
+              <i class="fa-solid fa-laptop-code" id="iconos-medio"></i>
               </div>
+              <h3>Diseño Web</h3>
+              <p>Paginas Webs impactantes
+                y atractivas al mejor precio.
+              </p>
             </div>
-      </section>
+            </td>
+            <td >
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="vertical">
+                <i class="fa-solid fa-rocket" id="iconos-medio"></i>
+              </div>
+              <h3 >Posicionamiento Web (SEO)</h3>
+              <p>Resultados de alta calidad</p>
+            </div>
+            </td>
+          </tr>
+        </div>
+
+        <div class="vertical2">
+          <tr>
+            <td >
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="vertical">
+                <i class="fa-regular fa-images" id="iconos-medio"></i>
+              </div>
+              <h3>Diseño de Logotipos</h3>
+              <p>
+              </p>
+            </div>
+            </td>
+            <td >
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="vertical">
+                <i class="fa-solid fa-photo-film" id="iconos-medio"></i>
+              </div>
+              <h3 >Social Media</h3>
+              <p></p>
+            </div>
+            </td>
+
+            <td>
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="vertical">
+                <i class="fa-solid fa-gears" id="iconos-medio"></i>
+              </div>
+              <h3>Mantenimiento Web</h3>
+              <p></p>
+            </div>
+            </td>
+          </tr>
+        </div>
+</section>
+
+<section class="contenedor">
+
+
+<div class="seccion-social" >
+  <h3 class="titulo-social">Opiniones de nuestros<i class="fa-sharp fa-solid fa-heart-circle-check"></i> clientes<i class="fa-sharp fa-solid fa-heart-circle-check"></i></h3>
+
+  <div class="card">
+    <img src=""  alt="">
+    <div class="tarjeta">
+      <h5 class="card-title">Antonio Morales Opina</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" >Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card" >
+    <img src=""  alt="">
+    <div class="tarjeta">
+      <h5 class="card-title">Angel Castro Gímez</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" >Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src=""  alt="">
+    <div class="tarjeta">
+      <h5 class="card-title">David Carbajal </h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" >Go somewhere</a>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
 
 
 
  <!--footer-->
-
+ <div class="col-md-12 col-sm-12 col-mx-12">
       <footer class="footer">
         <section class="sec3">
               <nav class="nav3">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12 col-sm-6 col-mx-3">
+                  <div class="form-row">
+                    <div class="col-md-12 col-sm-12 col-mx-12">
                       <h1>Code JD</h1>
 
                           <!--Redes sociales-->
@@ -170,12 +228,19 @@
                           <!-- Whatsapp -->
                             <a id="a2" class="a" target="_blank" href="https://wa.me/3156485860" role="button"><i class="fa-brands fa-whatsapp" id="icon2">  </i></a>
                     </div>
+
+                      <!-- boton flotante -->
+                    <div class="float">
+                      <a href="" target="_blank" id="a4">
+                        <i class="fa-brands fa-whatsapp" id="icon4"></i>
+                      </a>
+                    </div>
+
                   </div>
-              </div>
               </nav>
         </section>
       </footer>
-
+    </div>
     </body>
 
 </html>
